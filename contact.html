@@ -1,35 +1,65 @@
+```html
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Contact - Group 2</title>
 </head>
+
 <body>
 
-    <h1>Contactez-nous</h1>
+    <header>
+        <h1>Contactez-nous</h1>
 
-    <form action="#" method="post">
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <label for="nom">Nom :</label>
-        <input type="text" id="nom" name="nom" required>
+    <main>
+        <section>
+            <h2>Formulaire de contact</h2>
 
-        <br><br>
+            <form action="#" method="post">
 
-        <label for="email">Email :</label>
-        <input type="email" id="email" name="email" required>
+                <div>
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
 
-        <br><br>
+                <br>
 
-        <label for="message">Message :</label>
-        <br>
-        <textarea id="message" name="message" rows="5" cols="30" required></textarea>
+                <div>
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
 
-        <br><br>
+                <br>
 
-        <button type="submit">Envoyer</button>
+                <div>
+                    <label for="message">Message :</label>
+                    <br>
+                    <textarea id="message" name="message" rows="5" cols="30" required></textarea>
+                </div>
 
-    </form>
+                <br>
+
+                <button type="submit">Envoyer</button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Group 2 - Tous droits réservés</p>
+    </footer>
 
 </body>
 </html>
+```
